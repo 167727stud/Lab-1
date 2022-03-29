@@ -3,7 +3,7 @@ class Main {
   Scanner myInput = new Scanner( System.in );
   
   public static void main(String[] args) 
-{ System.out.print( "1-Zadanie 2_1");
+{ System.out.print( "1-Zadanie 2_1 choinka");
   System.out.print(System.lineSeparator());  
   System.out.print( "2-Zadanie 2_2");
   System.out.print(System.lineSeparator());
@@ -31,6 +31,7 @@ class Main {
     break;
       
     case 2:
+      Zamiana.Zamiana();
 
     break;
 

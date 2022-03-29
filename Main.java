@@ -36,10 +36,12 @@ class Main {
     break;
 
     case 3:
+      Tabliczka.Tabliczka();
 
     break;
 
     case 4:
+      Silnia.Silnia();
 
     break;
 

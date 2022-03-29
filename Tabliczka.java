@@ -1,33 +1,25 @@
 import java.util.Scanner;
-class Zamiana {
+class Tabliczka {
 
-public static void Zamiana()
+public static void Tabliczka()
 {
-  System.out.print( "wpisz słowo " );
+  System.out.print( "ocenę" );
   Scanner sc = new Scanner( System.in );
-    String slowo= sc.nextLine(); 
-  String Tempwynik= " ";
-  char znak;
-  int kod;
-  int licznik=0;
-  for (int i = 0 ; i < slowo.length() ; i++)   
-      {
-      znak = slowo.charAt(i);
-      kod= (int) znak;
-        if (kod >=97 && kod <=122)
-        {
-          kod = kod - 32;
-          znak = (char)kod;
-          ;
-        }
-        else{
-        if (kod >=65 && kod <=90)
-        {
-          kod = kod + 32;
-          znak = (char)kod;
-          licznik++;
-        }}
-        Tempwynik = Tempwynik + znak;
+ double[] oceny = new double[6];
+  oceny[0] = 4.0;
+  oceny[1]= 5.0;
+  oceny[2]= 3.5;
+  oceny[3]= 4.5;
+  oceny[4]= 5.0;
+  oceny[5]= 2.0;
+  double suma = 0.0;
+  int ilosc = oceny.length;
+  for (int i = 0; i < oceny.length; i++) 
+  {
+            suma += oceny[i];
   }
-  System.out.print( "słowo wygląda tak "+Tempwynik+" a ilość poprawek to "+licznik );
+  double srednia = suma / ilosc;
+  System.out.print( "średnia to " );
+  System.out.println(srednia);
+  
   }}

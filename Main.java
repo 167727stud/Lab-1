@@ -46,6 +46,7 @@ class Main {
     break;
 
     case 5:
+      Palindrom.Palindrom();
 
     break;
 

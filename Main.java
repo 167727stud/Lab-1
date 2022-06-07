@@ -11,7 +11,7 @@ class Main {
   System.out.print(System.lineSeparator());
   System.out.print( "4-Zadanie 2_4");
   System.out.print(System.lineSeparator());
-  System.out.print( "5-Zadanie 2_5");
+  System.out.print( "Zaliczenie Palindrom");
   System.out.print(System.lineSeparator());
   System.out.print( "6-stare zadanie 2_6");
   System.out.print(System.lineSeparator());
